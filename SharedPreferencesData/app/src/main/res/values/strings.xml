@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Shared Preferences Data</string>
+    <string name="information">Information</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="enter_age">Enter Age</string>
+    <string name="enter_phone">Enter Phone</string>
+    <string name="enter_city">Enter City</string>
+    <string name="save">SAVE</string>
+    <string name="show">Show</string>
+</resources>

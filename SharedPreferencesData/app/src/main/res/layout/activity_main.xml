@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="com.tech.gigabyte.sharedpreferencesdata.MainActivity">
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/information"
+        android:textColor="#4f4f4f"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/edit_name"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@+id/header"
+        android:layout_margin="10sp"
+        android:background="#f2f2f2"
+        android:hint="@string/enter_name"
+        android:textColor="#ef3d3c"
+        android:textColorHint="#b7b7b7" />
+
+    <EditText
+        android:id="@+id/edit_age"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@+id/edit_name"
+        android:layout_margin="10sp"
+        android:background="#f2f2f2"
+        android:hint="@string/enter_age"
+        android:textColor="#ef3c3b"
+        android:textColorHint="#b7b7b7" />
+
+    <EditText
+        android:id="@+id/edit_phone"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@+id/edit_age"
+        android:layout_margin="10sp"
+        android:background="#f2f2f2"
+        android:hint="@string/enter_phone"
+        android:inputType="phone"
+        android:textColor="#ef3c3b"
+        android:textColorHint="#b7b7b7" />
+
+    <EditText
+        android:id="@+id/edit_city"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@+id/edit_phone"
+        android:layout_margin="10sp"
+        android:background="#f2f2f2"
+        android:hint="@string/enter_city"
+        android:textColor="#ef3d3c"
+        android:textColorHint="#b7b7b7" />
+
+    <Button
+        android:id="@+id/button_save"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_city"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/my_stlye"
+        android:text="@string/save"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/button_show"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_save"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/my_stlye"
+        android:text="@string/show"
+        android:textColor="#FFFFFF" />
+</RelativeLayout>
